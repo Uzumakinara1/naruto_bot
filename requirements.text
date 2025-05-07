@@ -1,0 +1,6 @@
+python-telegram-bot==20.3
+python-dotenv==1.0.0  # For environment variables (optional)
+sqlite3==2.6.0  # Built-in Python, but included for clarity
+psycopg2-binary==2.9.6  # If using PostgreSQL (optional)
+requests==2.28.2  # For API calls (if needed)
+Pillow==9.5.0  # For image processing (if using profile pictures)
