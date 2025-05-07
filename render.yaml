@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ultimate-nara-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python naruto_bot.py
+    envVars:
+      - key: TOKEN
+        value: ${8176829483:AAHirUnye1yheY3JT0HumWtaQXvg-M63Qso}  # Will prompt for this during deploy
+    plan: free
